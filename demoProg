@@ -1,0 +1,57 @@
+// Sample program
+
+
+include "math.txt";
+
+// assign----------
+a = 6;
+// ----------------
+
+// expresion-------
+a = 4 + 5;
+b = -2 * 3;
+// ----------------
+
+// function call
+y = pow( b, 3);
+x = factorial(5);
+// -----------------
+
+// function def-----
+fn double( n) 
+    n = n * 2;
+end
+// -----------------
+
+// if-else2---------
+a = 14;
+if (a<5)
+   b = a * 2;
+else
+    if (a>10)
+	b = a - 10;
+    else
+       b = a / 2;
+    end
+end
+// -----------------
+
+// long-expr--------
+x = 5;
+y = 2;
+z = 1 / (x+y);
+// -----------------
+
+// nest-------------
+a = 4;
+if (a<5)
+  n = 1;
+  while (n<10)
+    n = n+1;
+  end
+end
+// -----------------
+
+b = "enter a " + "number!";
+x = read();
+x + 3;
